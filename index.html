@@ -1,11 +1,85 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>KPRCAS - HTML</title>
 </head>
 <body>
     <h1>Heading</h1>
+    <h2>Heading</h2>
+    <h3>Heading</h3>
+    <h4>Heading</h4>
+    <h5>Heading</h5>
+    <h6>Heading</h6>
+    <p><u>I am a strong person</u></p>
+    
+        <table border="2">
+            <thread>
+                <tr>
+                    <th rowspan="2">S.NO</th>
+                    <th colspan="2">Name</th>
+                    <th rowspan="2">Dept</th>
+                </tr>
+                <tr>
+                    <th>First name</th>
+                    <th>last name</th>
+                </tr>
+            </thread>
+            <tbody>
+                <tr>
+                    <td>01</td>
+                    <td>Raghav </td>
+                    <td>KR</td>
+                    <td>Ai & Ds</td>
+                </tr>
+                <tr>
+                    <td>02</td>
+                    <td>Arjun</td>
+                    <td>A</td>
+                    <td>Computer Science</td>
+                </tr>
+                <tr>
+                    <td>03</td>
+                    <td>Khushi</td>
+                    <td>G</td>
+                    <td>BBA</td>
+                </tr>
+            </tbody>
+        </table>
+    <br>
+    <hr>
+    <form>
+        <label for="username">Name:</label>
+        <input type="text"  placeholder="enter the name">
+        <br><br>
+        <label for="usernage"> Age:</label>
+        <input type="number" placeholder="enter the age">
+        <br><br>
+        <label for="useremail">Email:</label>
+        <input type="email" placeholder="enter the email">
+        <br><br>
+        <label for="userpassword">Password:</label>
+        <input type="password" placeholder="enter the password">
+        <br><br>
+        <label for="userphone">Phone Number:</label>
+        <input type="tel" placeholder="enter the phone number">
+        <br><br>
+        <label> <input type="radio" name="gender" value="male"> Male</label>
+        <label> <input type="radio" name="gender" value="female"> Female</label>
+        <br><br>
+        <label>skills</label>
+        <input type="checkbox" name="skills" value="html">html
+        <input type="checkbox" name="skills" value="css"> css
+        <input type="checkbox" name="skills" value="js"> js
+        <br><br>
+
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+        <button type="button">Button</button>
+        <textarea name="feedback" cols="30" rows="5" placeholder="enter your feedback"></textarea>
+
+
+    </form>
+    <div>Division</div>
+    <a href="https://www.amazon.com" target="_blank">amazon</a>
 </body>
 </html>
